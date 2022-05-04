@@ -1,10 +1,10 @@
 import { useState } from "react";
 
-import { CloseButton } from "./CloseButton";
+import { CloseButton } from "../CloseButton";
 
-import bugImageUrl from '../assets/bug.svg';
-import ideaImageUrl from '../assets/idea.svg';
-import thoughtImageUrl from '../assets/thought.svg';
+import bugImageUrl from '../../assets/bug.svg';
+import ideaImageUrl from '../../assets/idea.svg';
+import thoughtImageUrl from '../../assets/thought.svg';
 
 const feedbackTypes = {
   BUG: {
@@ -69,7 +69,7 @@ export function WidgetForm() {
           }) }
         </div>
       ) : (
-        <p>Hello World</p>
+        <></>
       )};
 
       <footer className="text-xs text-neutral-400">
