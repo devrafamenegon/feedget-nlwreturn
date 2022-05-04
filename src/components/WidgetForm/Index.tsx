@@ -59,7 +59,7 @@ export function WidgetForm() {
           feedbackType={feedbackType} 
           onFeedbackRestartRequested={handleRestartFeedback}
         />
-      )};
+      )}
 
       <footer className="text-xs text-neutral-400">
         Feito com 🤍 por <a className="underline underline-offset-2" href="#">Rafael Menegon</a>
